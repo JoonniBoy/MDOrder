@@ -1,0 +1,107 @@
+/* fuentes de google */
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+
+  background: -webkit-radial-gradient(#146ada, #0a0011);
+}
+.container span {
+  font-size: 120pt;
+  font-weight: bold;
+  position: relative;
+  font-family: "Fredoka One";
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+.container span::before {
+  content: var(--l);
+  position: absolute;
+  transform: scale(1.1);
+  filter: blur(15px);
+}
+.container span::after {
+  content: var(--l);
+  position: absolute;
+  height: 100%;
+  width: 300px;
+  top: 80%;
+  left: 0;
+  filter: blur(30px);
+  transform: rotateX(50deg);
+}
+/*Texto: Metodo */
+.container span:hover {
+  filter: contrast(250%);
+}
+.container span:nth-child(1) {
+  color: #00bef8;
+}
+.container span:nth-child(2) {
+  color: #ff0697;
+}
+.container span:nth-child(3) {
+  color: #ff4d00;
+}
+.container span:nth-child(4) {
+  color: #ffe600;
+}
+.container span:nth-child(5) {
+  color: #bb00ff;
+
+}.container span:nth-child(6) {
+  color: #00bef8;
+}
+/*Texto: De */
+.container span:nth-child(7) {
+  color: #ff0697;
+}
+.container span:nth-child(8) {
+  color: #ff4d00;
+}
+/*Texto: Ordenamiento */
+.container span:nth-child(9) {
+  color: #ffe600;
+}
+.container span:nth-child(10) {
+  color: #bb00ff;
+}
+.container span:nth-child(11) {
+  color: #00bef8;
+}
+.container span:nth-child(12) {
+  color: #ff0697;
+}
+.container span:nth-child(13) {
+  color: #ff4d00;
+}
+.container span:nth-child(14) {
+  color: #ffe600;
+}
+.container span:nth-child(15) {
+  color: #bb00ff;
+
+}.container span:nth-child(16) {
+  color: #00bef8;
+}
+.container span:nth-child(17) {
+  color: #ff0697;
+}
+.container span:nth-child(18) {
+  color: #ff4d00;
+}
+.container span:nth-child(19) {
+  color: #ffe600;
+}
+.container span:nth-child(20) {
+  color: #bb00ff;
+}
+.container span:nth-child(21) {
+  color: #bb00ff;
+}
